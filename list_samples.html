@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<!-- Some experiments with lists. -->
+<html>
+    <head>
+        <title>List Samples</title>
+    </head>
+
+    <style>
+        /* Affect all tags (for formatting view of page)*/
+        h2, h4 { margin: 0; }
+        ul, ol, dl { margin-top: 0; }
+
+        /* Horizontal List (Need to specify the 'li' inside)*/
+        #horizontal-list li { display: inline; }
+    </style>
+
+    <body>
+        <!--Unordered list examples-->
+        <!--The style 'list-style' can be defined in the CSS too-->
+        <h2>Unordered List</h2>
+        <h4>Style: Default(disc)</h4>
+        <ul>
+            <li>Item B</li>
+            <li>Item A</li>
+        </ul>
+        <h4>Style: cirle</h4>
+        <ul style="list-style-type:circle">
+            <li>Item B</li>
+            <li>Item A</li>
+        </ul>
+        <h4>Style: square</h4>
+        <ul style="list-style-type:square">
+            <li>Item B</li>
+            <li>Item A</li>
+        </ul>
+        <h4>Style: none</h4>
+        <ul style="list-style-type:none">
+            <li>Item B</li>
+            <li>Item A</li>
+        </ul>
+
+        <br> <!--Line Break-->
+
+        <!--Ordered list examples-->
+        <h2>Ordered List</h2>
+        <h4>Style: Default (numbers)</h4>
+        <ol>
+            <li>Item B</li>
+            <li>Item A</li>
+        </ol>
+        <h4>Style: Uppercase Letters</h4>
+        <ol type="A">
+            <li>Item B</li>
+            <li>Item A</li>
+        </ol>
+        <h4>Style: Uppercase Roman numerals</h4>
+        <ol type="I">
+            <li>Item B</li>
+            <li>Item A</li>
+        </ol>
+
+        <br> <!--Line Break-->
+
+        <!--HTML Description List examples-->
+        <h2>HTML Description Lists</h2>
+        <dl>
+          <dt>Coffee</dt>
+          <dd>- black hot drink</dd>
+          <dt>Milk</dt>
+          <dd>- white cold drink</dd>
+        </dl>
+
+        <br> <!--Line Break-->
+
+        <!--Nested Lists (can mix and match ordered and unordered as needed)-->
+        <h2>Nested Lists</h2>
+        <ul>
+          <li>Coffee</li>
+          <li>Tea
+            <ul>
+              <li>Black tea</li>
+              <li>Green tea</li>
+            </ul>
+          </li>
+          <li>Milk</li>
+        </ul>
+
+        <br> <!--Line Break-->
+
+        <!--Horizontal Lists (Good for creating page navigation)-->
+        <h2>Horizontal Lists</h2>
+        <ul id="horizontal-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP</li>
+        </ul>
+
+    </body>
+</html>
+
