@@ -1,6 +1,6 @@
 This repository contains various HTML/CSS testing and sampling I have done to try out different things. Feel free to use and abuse as you see fit.
 
-Since I do all of my development on Linux machine but work from a Windows desktop, I need to a way to easily see the results of my files. I use 'SimpleHTTPServer' to do this.
+Since I do all of my development on Linux machine but work from a Windows desktop, I need to a way to easily see the results of my files. I use `SimpleHTTPServer` to do this.
 
 Just run the following command in the directory of the files:
 ```
